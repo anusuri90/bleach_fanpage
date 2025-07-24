@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "name": "Riley Shadow",
+      "age": 18,
+      "power": "Telekinesis",
+      "description": "Quiet and mysterious with the power to move objects with her mind.",
+      "image": "riley.jpg"
+    },
+    {
+      "name": "Zane Storm",
+      "age": 24,
+      "power": "Lightning Control",
+      "description": "Reckless hero battling inner demons with the force of electricity.",
+      "image": "zane.jpg"
+    },
+    {
+      "name": "Aria Ember",
+      "age": 21,
+      "power": "Pyrokinesis",
+      "description": "Fierce and passionate, she commands fire with graceful precision.",
+      "image": "aria.jpg"
+    },
+    {
+      "name": "Kai Frost",
+      "age": 19,
+      "power": "Cryokinesis",
+      "description": "Calm and collected, creating ice sculptures mid-battle.",
+      "image": "kai.jpg"
+    },
+    {
+      "name": "Nova Vega",
+      "age": 23,
+      "power": "Cosmic Energy",
+      "description": "Energy manipulator from another galaxy, seeking her place on Earth.",
+      "image": "nova.jpg"
+    }
+  ]
+}

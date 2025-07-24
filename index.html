@@ -1,0 +1,153 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bleach Fanpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <video autoplay muted loop id="bg-video">
+    <source src="background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <!-- Cookie Consent Popup -->
+  <div id="cookieConsent" class="cookie-popup">
+    <p>This site uses cookies. <button id="acceptBtn">Accept</button> <button id="declineBtn">Decline</button></p>
+  </div>
+
+  <!-- Sidebar Navigation -->
+  <div id="sidebar" class="sidebar">
+    <button id="closeSidebar">&times;</button>
+    <h3>More Stuff <br>(created by Anubhav)</h3>
+    <a href="#">Home</a>
+    <a href="#">Characters</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main">
+    <button id="openSidebar">☰</button>
+    <h1>Character Profiles from Bleach</h1>
+
+    <!-- Filters Section -->
+    <section id="filters">
+      
+      <h2>Filter by Gender</h2>
+      <button class="filter-btn" data-type="gender" data-value="male">Male</button>
+      <button class="filter-btn" data-type="gender" data-value="female">Female</button>
+      <h2>Filter by Role</h2>
+      <button class="filter-btn" data-type="role" data-value="hero">Hero</button>
+      <button class="filter-btn" data-type="role" data-value="villain">Villain</button>
+      <button class="filter-btn" data-type="role" data-value="support">Support</button>
+    </section>
+
+    <!-- Character Cards -->
+    <section id="characters" >
+      <div class="character-card" data-gender="male" data-role="hero">
+
+        <h3>Ichigo Kurosaki</h3>
+        <p>Ichigo is the orange-haired teenager turned reluctant hero, who unexpectedly inherits Soul Reaper powers from Rukia Kuchiki during a Hollow attack. A natural protector, he balances high academic performance with fierce loyalty and a short temper. Ichigo’s Zanpakutō, Zangetsu, evolves into a formidable Bankai—Tensa Zangetsu—allowing him unimaginable speed and power. Despite his tough exterior, he is compassionate and deeply committed to defending friends, family, and innocents. Underneath his scowl lies a courageous, determined spirit driven by personal loss and a growing sense of purpose. Wikipedia +15 Animepedia +15 Reddit +15</p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+      <div class="character-card" data-gender="female" data-role="hero">
+        <h3>Orihime Inoue</h3>
+        <p>Orihime begins as a kindhearted, somewhat naïve classmate of Ichigo and Rukia. Her overly imaginative spirit masks deep insecurity and a desire to belong. Over time, she gains the Shun Shun Rikka, a unique set of healing and defensive powers capable of reversing injuries and nullifying attacks. Her emotional evolution, from school‑girl crush to courageous warrior, adds depth to her role and underlines her inner strength and empathy. CBR.</p>
+        <span class="tag">Female</span><span class="tag">Hero</span>
+      </div>
+      <div class="character-card" data-gender="female" data-role="hero">
+        <h3>Rukia Kuchiki</h3>
+        <p>Rukia is the stoic and duty-bound Soul Reaper assigned to Karakura Town, whose transfer of her shinigami powers to Ichigo sets the entire narrative in motion. As a member of the noble Kuchiki household, she embodies formality and restraint, yet her loyalty to Ichigo highlights her strength of character. Her ice‑based Zanpakutō, Sode no Shirayuki, is renowned for its elegance and strategic versatility in combat. Rukia is both mentor and moral anchor to Ichigo, motivating him toward his destiny 
+dailywrites.co.uk</p>
+        <span class="tag">Female</span><span class="tag">Hero</span>
+      </div>
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Yasutora “Chad” Sado</h3>
+        <p>Chad is Ichigo’s loyal high‑school friend—calm, steadfast, and immensely protective. His unique spiritual powers manifest as armored limbs that shield others and deliver devastating blows. Though often underestimated, Chad’s courage and dedication make him an unwavering companion in battle. His personal growth centers on using his strength for defense rather than dominance </p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Genryūsai Shigekuni Yamamoto (Captain‑Commander)
+</h3>
+        <p>CThe founding pillar of the Gotei 13, Yamamoto exudes ancient authority and unwavering discipline. His flame-based Zanpakutō, Ryūjin Jakka, houses the devastating Bankai: Zanka no Tachi, capable of incinerating foes in a single strike. Despite his venerable age, he remains one of the most powerful and fearsome Soul Reapers ever known 
+Wikipedia
++15
+Giant Bomb
++15
+Reddit
++15</p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+
+
+      <div class="character-card" data-gender="female" data-role="hero">
+        <h3>Sōi Fēng (2nd Division Captain) </h3>
+        <p>Commander of the stealth-driven Onmitsukidō, Soi Fon is lithe, precise, and fanatically loyal. Her Zanpakutō, Suzumebachi, delivers lethal poison with two hits, and her mastery of shunpo and hand-to-hand combat make her a formidable assassin hidden in shadow </p>
+        <span class="tag">Female</span><span class="tag">Hero</span>
+      </div>
+
+
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Yasutora “Chad” Sado</h3>
+        <p>Chad is Ichigo’s loyal high‑school friend—calm, steadfast, and immensely protective. His unique spiritual powers manifest as armored limbs that shield others and deliver devastating blows. Though often underestimated, Chad’s courage and dedication make him an unwavering companion in battle. His personal growth centers on using his strength for defense rather than dominance </p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+
+
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Yasutora “Chad” Sado</h3>
+        <p>Chad is Ichigo’s loyal high‑school friend—calm, steadfast, and immensely protective. His unique spiritual powers manifest as armored limbs that shield others and deliver devastating blows. Though often underestimated, Chad’s courage and dedication make him an unwavering companion in battle. His personal growth centers on using his strength for defense rather than dominance </p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+
+
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Yasutora “Chad” Sado</h3>
+        <p>Chad is Ichigo’s loyal high‑school friend—calm, steadfast, and immensely protective. His unique spiritual powers manifest as armored limbs that shield others and deliver devastating blows. Though often underestimated, Chad’s courage and dedication make him an unwavering companion in battle. His personal growth centers on using his strength for defense rather than dominance </p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+
+
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Yasutora “Chad” Sado</h3>
+        <p>Chad is Ichigo’s loyal high‑school friend—calm, steadfast, and immensely protective. His unique spiritual powers manifest as armored limbs that shield others and deliver devastating blows. Though often underestimated, Chad’s courage and dedication make him an unwavering companion in battle. His personal growth centers on using his strength for defense rather than dominance </p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+
+
+
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Yasutora “Chad” Sado</h3>
+        <p>Chad is Ichigo’s loyal high‑school friend—calm, steadfast, and immensely protective. His unique spiritual powers manifest as armored limbs that shield others and deliver devastating blows. Though often underestimated, Chad’s courage and dedication make him an unwavering companion in battle. His personal growth centers on using his strength for defense rather than dominance </p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+
+
+
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Yasutora “Chad” Sado</h3>
+        <p>Chad is Ichigo’s loyal high‑school friend—calm, steadfast, and immensely protective. His unique spiritual powers manifest as armored limbs that shield others and deliver devastating blows. Though often underestimated, Chad’s courage and dedication make him an unwavering companion in battle. His personal growth centers on using his strength for defense rather than dominance </p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+
+
+      <div class="character-card" data-gender="male" data-role="hero">
+        <h3>Yasutora “Chad” Sado</h3>
+        <p>Chad is Ichigo’s loyal high‑school friend—calm, steadfast, and immensely protective. His unique spiritual powers manifest as armored limbs that shield others and deliver devastating blows. Though often underestimated, Chad’s courage and dedication make him an unwavering companion in battle. His personal growth centers on using his strength for defense rather than dominance </p>
+        <span class="tag">Male</span><span class="tag">Hero</span>
+      </div>
+      <!-- More character cards as needed -->
+      <h4>Website created by Anubhav and Ayush</h4>
+    </section>
+
+    <!-- Scrolling Text Container -->
+    <section id="scrollTextContainer">
+      <div class="scrolling-text">💡 Welcome to the Bleach Fan Page made by Anubhav 💡</div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
